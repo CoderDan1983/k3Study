@@ -8,7 +8,6 @@ require('dotenv').config();
 
 app.use('/', express.static(path.join(__dirname, '/')));
 
-
 app.listen(PORT, ()=>{
 	console.log('the Daniel is studying :)')
 });
